@@ -1,0 +1,5 @@
+The SVD/matrix factorization of the user ratings movie data generated movie predictions for a given user & movie that were closest to actual user movie rating values. 
+
+The parameters used to apply SVD to the centered, normalized user movie ratings data matrix are listed below:
+
+<function scipy.sparse.linalg._eigen._svds.svds(A, k=6, ncv=None, tol=0, which='LM', v0=None, maxiter=None, return_singular_vectors=True, solver='arpack', random_state=None, options=None)>
